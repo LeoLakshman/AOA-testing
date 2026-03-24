@@ -1,0 +1,144 @@
+Starting on 3-8 at 22:54:16
+
+Question q1
+===========
+*** PASS: test_cases/q1/graph_backtrack.test
+*** 	solution:		['1:A->C', '0:C->G']
+*** 	expanded_states:	['A', 'D', 'C']
+*** PASS: test_cases/q1/graph_bfs_vs_dfs.test
+*** 	solution:		['2:A->D', '0:D->G']
+*** 	expanded_states:	['A', 'D']
+*** PASS: test_cases/q1/graph_infinite.test
+*** 	solution:		['0:A->B', '1:B->C', '1:C->G']
+*** 	expanded_states:	['A', 'B', 'C']
+*** PASS: test_cases/q1/graph_manypaths.test
+*** 	solution:		['2:A->B2', '0:B2->C', '0:C->D', '2:D->E2', '0:E2->F', '0:F->G']
+*** 	expanded_states:	['A', 'B2', 'C', 'D', 'E2', 'F']
+*** PASS: test_cases/q1/pacman_1.test
+*** 	pacman layout:		mediumMaze
+*** 	solution length: 130
+*** 	nodes expanded:		146
+
+### Question q1: 3/3 ###
+
+
+Question q2
+===========
+*** PASS: test_cases/q2/graph_backtrack.test
+*** 	solution:		['1:A->C', '0:C->G']
+*** 	expanded_states:	['A', 'B', 'C', 'D']
+*** PASS: test_cases/q2/graph_bfs_vs_dfs.test
+*** 	solution:		['1:A->G']
+*** 	expanded_states:	['A', 'B']
+*** PASS: test_cases/q2/graph_infinite.test
+*** 	solution:		['0:A->B', '1:B->C', '1:C->G']
+*** 	expanded_states:	['A', 'B', 'C']
+*** PASS: test_cases/q2/graph_manypaths.test
+*** 	solution:		['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+*** 	expanded_states:	['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+*** PASS: test_cases/q2/pacman_1.test
+*** 	pacman layout:		mediumMaze
+*** 	solution length: 68
+*** 	nodes expanded:		269
+
+### Question q2: 3/3 ###
+
+
+Question q3
+===========
+*** FAIL: Exception raised: module 'search' has no attribute 'uniformCostSearch'
+*** 
+*** Traceback (most recent call last):
+***   File "/Users/leo/Downloads/Homework-2/grading.py", line 76, in grade
+***     util.TimeoutFunction(getattr(gradingModule, q),1800)(self) # Call the question's function
+***   File "/Users/leo/Downloads/Homework-2/util.py", line 632, in __call__
+***     result = self.function(*args, **keyArgs)
+***   File "/Users/leo/Downloads/Homework-2/autograder.py", line 303, in <lambda>
+***     return lambda grades: question.execute(grades)
+***   File "/Users/leo/Downloads/Homework-2/testClasses.py", line 57, in execute
+***     if not f(grades):
+***   File "/Users/leo/Downloads/Homework-2/autograder.py", line 298, in <lambda>
+***     return lambda grades: testCase.execute(grades, moduleDict, solutionDict)
+***   File "searchTestClasses.py", line 203, in execute
+***     solution, expanded_states, error = self.getSolInfo(search)
+***   File "searchTestClasses.py", line 182, in getSolInfo
+***     alg = getattr(search, self.alg)
+*** AttributeError: module 'search' has no attribute 'uniformCostSearch'
+*** 
+
+### Question q3: 0/3 ###
+
+
+Question q4
+===========
+*** FAIL: Exception raised: module 'search' has no attribute 'aStarSearch'
+*** 
+*** Traceback (most recent call last):
+***   File "/Users/leo/Downloads/Homework-2/grading.py", line 76, in grade
+***     util.TimeoutFunction(getattr(gradingModule, q),1800)(self) # Call the question's function
+***   File "/Users/leo/Downloads/Homework-2/util.py", line 632, in __call__
+***     result = self.function(*args, **keyArgs)
+***   File "/Users/leo/Downloads/Homework-2/autograder.py", line 303, in <lambda>
+***     return lambda grades: question.execute(grades)
+***   File "/Users/leo/Downloads/Homework-2/testClasses.py", line 57, in execute
+***     if not f(grades):
+***   File "/Users/leo/Downloads/Homework-2/autograder.py", line 298, in <lambda>
+***     return lambda grades: testCase.execute(grades, moduleDict, solutionDict)
+***   File "searchTestClasses.py", line 203, in execute
+***     solution, expanded_states, error = self.getSolInfo(search)
+***   File "searchTestClasses.py", line 182, in getSolInfo
+***     alg = getattr(search, self.alg)
+*** AttributeError: module 'search' has no attribute 'aStarSearch'
+*** 
+
+### Question q4: 0/3 ###
+
+
+Question q5
+===========
+*** Method not implemented: getStartState at line 299 of searchAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q5: 0/3 ###
+
+
+Question q6
+===========
+*** NOTE: Make sure to complete Question q4 before working on Question q6,
+*** because Question q6 builds upon your answer for Question q4.
+
+
+Question q7
+===========
+*** NOTE: Make sure to complete Question q4 before working on Question q7,
+*** because Question q7 builds upon your answer for Question q4.
+
+
+Question q8
+===========
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+*** Method not implemented: findPathToClosestDot at line 488 of searchAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q8: 0/3 ###
+
+
+Finished at 22:54:16
+
+Provisional grades
+==================
+Question q1: 3/3
+Question q2: 3/3
+Question q3: 0/3
+Question q4: 0/3
+Question q5: 0/3
+Question q6: 0/3
+Question q7: 0/4
+Question q8: 0/3
+------------------
+Total: 6/25
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
