@@ -13,7 +13,7 @@ class SearchProblem:
         util.raiseNotDefined()
 
     def getCostOfActions(self, actions):
-        util.raiseNotDefined()
+        util.raiseNotDefined() 
 
 
 
