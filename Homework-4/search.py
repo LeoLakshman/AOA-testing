@@ -80,7 +80,7 @@ def uniformCostSearch(problem: SearchProblem) -> List[Directions]:
     while not frontier.isEmpty():
         state, actions, cost_so_far = frontier.pop()
 
-        if cost_so_far > best_cost.get(state, float('inf')):
+        if cost_so_far > best_cost.get(state, float('inf')): 
             continue
 
         if problem.isGoalState(state):
