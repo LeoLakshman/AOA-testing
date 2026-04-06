@@ -13,7 +13,7 @@ class SearchProblem:
     def getSuccessors(self, state):
         util.raiseNotDefined()
 
-    def getCostOfActions(self, actions):
+    def getCostOfActions(self, actions): 
         util.raiseNotDefined()
 
 
